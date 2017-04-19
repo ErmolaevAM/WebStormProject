@@ -1,0 +1,186 @@
+body {
+    width: 1000px;
+    margin: auto;
+    margin-top: 10px;
+}
+a {
+    text-decoration: none;
+}
+
+.topmenubar {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.topmenupoint {
+    display: inline-block;
+    padding: 10px;
+    font-size: 17px;
+    font-family: Consolas;
+    font-weight: bold;
+}
+
+.toplink {
+    color: black;
+}
+
+.toplink:hover {
+    color: orchid;
+}
+
+.logoimg {
+    width: 200px;
+    height: 70px;
+}
+
+.menulist {
+    width: 796px;
+    height: 70px;
+}
+
+.toplist {
+    margin-left: 180px;
+}
+
+
+.middlepart {
+    display: inline-block;
+}
+
+.leftmenubar {
+    margin-left: -35px;
+    width: 230px;
+}
+
+.leftmenupoint {
+    list-style-type: none;
+    font: 16px/2 sans-serif;
+    border-bottom: 1px solid #9CF;
+    margin-left: -5px;
+    padding-left: 5px;
+    /*font-weight: bold;*/
+}
+
+.leftlink {
+    color: black;
+}
+
+.maincontent {
+    width: 766px;
+    vertical-align: top;
+    margin-left: 30px;
+    margin-top: -10px;
+}
+.text {
+    padding: 10px;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.contenttable {
+    width: 100%;
+    border: 1px double black;
+    border-collapse: collapse;
+}
+
+.firstrow {
+    background-color: cornflowerblue;
+    vertical-align: middle;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.secondrow {
+    background-color: cornflowerblue;
+    vertical-align: middle;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.row {
+    font-size: 17px;
+    font-family: Consolas;
+    font-weight: lighter;
+}
+
+tr, td {
+    border: 1px double black;
+    border-collapse: collapse;
+}
+
+.aftertabletext {
+    font-size: 15px;
+    font-family: Consolas;
+    font-weight: lighter;
+}
+
+.browsers {
+    font-size: 17px;
+    font-family: Consolas;
+    font-style: italic;
+}
+
+#chrome {
+    color: red;
+}
+
+#firefoxe {
+    color: green;
+}
+
+#ie {
+    color: red;
+}
+
+#ie8 {
+    color: blue;
+    text-decoration: underline;
+}
+
+#ie10 {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+#edge {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.botmenupoint {
+    display: inline-block;
+    padding: 4px;
+    font-family: Consolas;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.bot {
+    border-right: 1px solid black;
+}
+
+.botlist {
+    margin-left: -40px;
+}
+
+.botmenubar {
+    display: inline-block;
+}
+
+.leftmenupoint:hover {
+    color: #fff;
+    background: #9CF
+}
+
+.botlink {
+    color: black;
+}
+
+.botlink:hover {
+    color: orchid;
+}
+
+.textlink {
+    color: orchid;
+}
