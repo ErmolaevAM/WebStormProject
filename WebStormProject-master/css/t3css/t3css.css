@@ -316,7 +316,6 @@ header {
         padding-left: 20%;
     }
 
-
 }
 
 /*desktop version*/
@@ -425,6 +424,10 @@ header {
         padding-left: 45px;
     }
 
+    .aside-header-links {
+        margin-left: 39%;
+    }
+
     .links {
         padding: 10px;
     }
@@ -449,7 +452,17 @@ header {
         float: right;
     }
 
+    .foot-div {
+        width: 50%
+    }
 
+    .foot-but-div {
+        width: 19%;
+    }
+
+    .foot-but-img {
+        width: 100%;
+    }
 
 }
 
