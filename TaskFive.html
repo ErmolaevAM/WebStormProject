@@ -2,43 +2,49 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>JS tasks</title>
+    <title>Task five</title>
+    <link href="css/taskFiveCSS/task5.css" rel="stylesheet">
 </head>
 <body>
-    <h1>JS Basics</h1>
-    <h2>Count numbers</h2>
-    <input class="input_count" type="text" placeholder="Enter your shit..."/>
-    <button class="count_button" type="button">Count</button>
-
-    <h2>Delete all repeated chars</h2>
-    <input class="input_text" type="text" placeholder="Enter your shit..."/>
-    <button class="delete_button" type="button">Delete</button>
-
-    <h2>Date</h2>
-    <input class="input_year" type="datetime" placeholder="Year"/>
-    <select class="input_month">
-        <option>Jan</option>
-        <option>Feb</option>
-        <option>Mar</option>
-        <option>Apr</option>
-
-        <option>May</option>
-        <option>Jun</option>
-        <option>Jul</option>
-        <option>Aug</option>
-
-        <option>Sept</option>
-        <option>Oct</option>
-        <option>Nov</option>
-        <option>Dec</option>
-    </select>
-    <input class="input_day" type="datetime" placeholder="Day"/>
-    <input class="input_hour" type="datetime" placeholder="Hour"/>
-    <input class="input_minute" type="datetime" placeholder="Minute"/>
-    <input class="input_second" type="datetime" placeholder="Second"/>
-    <br>
-    <br>
-    <input class="result_date" type="text" placeholder="Result"/>
-    <button class="date_result_button" type="button">Replace</button>
+    <div class="container">
+        <h1>JS Basic</h1>
+        <div>
+            <h3>Count numbers</h3>
+            <input class="input-math" name="math-input-place" type="text" id="math-input" placeholder="Enter your math"/>
+            <button class="button" type="button" onclick="count()" name="count">Count</button>
+        </div>
+        <div>
+            <h3>Delete repeated</h3>
+            <textarea class="input-text" name="text-input-place" id="text-input-place" title="Title" placeholder="Enter your phrase"></textarea>
+            <button class="button" type="button" onclick="deleteRepeatedChars()" name="delete">Delete</button>
+        </div>
+        <div>
+            <h3>Count numbers</h3>
+            <input class="input-date" name="year-input-place" type="text" id="year" placeholder="Year"/>
+            <select class="input-date" name="month" title="Title" id="month">
+                <option class="option" value='1'>Janaury</option>
+                <option class="option" value='2'>February</option>
+                <option class="option" value='3'>March</option>
+                <option class="option" value='4'>April</option>
+                <option class="option" value='5'>May</option>
+                <option class="option" value='6'>June</option>
+                <option class="option" value='7'>July</option>
+                <option class="option" value='8'>August</option>
+                <option class="option" value='9'>September</option>
+                <option class="option" value='10'>October</option>
+                <option class="option" value='11'>November</option>
+                <option class="option" value='12'>December</option>
+            </select>
+            <input class="input-date" name="numberphrase" type="text" id="day" placeholder="Day">
+            <input class="input-date" name="numberphrase" type="text" id="hour" placeholder="Hour"/>
+            <input class="input-date" name="numberphrase" type="text" id="minute" placeholder="Minute"/>
+            <input class="input-date" name="numberphrase" type="text" id="second" placeholder="Second"/>
+        </div>
+        <div class="mask">
+            <input class="input-math" name="numberphrase" type="text" id="mask" placeholder="Enter mask"/>
+            <button class="button" type="button" onclick="format()" name="delete">Replace</button>
+        </div>
+    </div>
+<script rel="script" src="js/task5/TaskFive.js"></script>
 </body>
 </html>
