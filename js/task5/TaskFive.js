@@ -124,12 +124,44 @@ function format() {
         s: parseInt(second)
     };
 
-    for (var field in date) {
-        mask = mask.replaceAll(field, date[field]);
+    var splitMask = mask.split('');
+    var words = [];
+    var index;
+
+    var tmp = "";
+
+    for (index = 1; index < splitMask.length; i++) {
+        if (splitMask[index] == splitMask[index-1]) {
+            tmp += splitMask[index-1];
+            if (index == splitMask.length){
+                tmp += splitMask[index]
+            }
+        } else {
+            tmp += splitMask[index-1];
+            if (index == splitMask.length){
+                tmp += splitMask[index]
+            }
+            words.push(tmp);
+            tmp = "";
+        }
     }
 
+    var result = "";
+
+    for (var item in words) {
+        if (date.contains(item)) {
+            result += date[item];
+        } else {
+            result += item;
+        }
+    }
+
+    /*for (var field in date) {
+        mask = mask.replaceAll(field, date[field]);
+    }*/
+
     if (mask.length != 0 && isNumber(year) && isNumber(day) && isNumber(hour) && isNumber(minute) && isNumber(second)) {
-        document.getElementById('mask').value = mask;
+        document.getElementById('mask').value = result;
     }
 
     function parseInt(value) {
