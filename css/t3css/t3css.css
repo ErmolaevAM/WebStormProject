@@ -169,6 +169,26 @@ header {
     width: 100%;
 }
 
+.footer-elem {
+    display: inline-block;
+    text-align: justify;
+    width: 15%;
+    margin: auto;
+    margin-left: 4%;
+}
+
+.sass {
+    width: 50px;
+}
+
+.footer-ul {
+    width: 100%;
+}
+
+.footer-text {
+    text-decoration: none;
+}
+
 /*invisible blocks*/
 .header-links {
     display: none;
@@ -316,6 +336,17 @@ header {
         padding-left: 20%;
     }
 
+    .footer-elem {
+        display: inline-block;
+        text-align: justify;
+        width: 15%;
+        margin: auto;
+    }
+
+    .footer-ul {
+        width: 100%;
+    }
+
 }
 
 /*desktop version*/
@@ -336,12 +367,17 @@ header {
     .link {
         display: inline-block;
         vertical-align: middle;
+        padding-right: 5px;
         /*padding: 5px;*/
     }
 
     .link-text {
-        color: gray;
+        color: lightgray;
         text-decoration: none;
+    }
+
+    .left-link {
+        color: cornflowerblue;
     }
 
     .tablet-search {
@@ -461,6 +497,18 @@ header {
     }
 
     .foot-but-img {
+        width: 100%;
+    }
+
+    .footer-elem {
+        display: inline-block;
+        text-align: justify;
+        width: 15%;
+        margin: auto;
+        margin-left: 20px;
+    }
+
+    .footer-ul {
         width: 100%;
     }
 
