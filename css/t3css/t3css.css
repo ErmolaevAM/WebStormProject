@@ -239,7 +239,7 @@ header {
     }
 
     .link-text {
-        color: gray;
+        color: lightgray;
         text-decoration: none;
     }
 
@@ -476,6 +476,26 @@ header {
     .post-div {
         width: 48%;
         display: inline-block;
+    }
+
+    .post-elem {
+        display: inline-block;
+    }
+
+    .post-img {
+        padding: 5px;
+        width: 50%;
+    }
+
+    .article-header {
+        vertical-align: top;
+        float: right;
+        padding-top: 50px;
+        padding-right: 10px;
+    }
+
+    .normal-text {
+
     }
 
     .first {

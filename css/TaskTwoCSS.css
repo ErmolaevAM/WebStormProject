@@ -156,8 +156,12 @@ tr, td {
     font-weight: bold;
 }
 
-.bot {
+.botlist li {
     border-right: 1px solid black;
+}
+
+.botlist li:last-child {
+    border-right: none;
 }
 
 .botlist {
